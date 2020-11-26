@@ -1,1 +1,104 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color:#E91E63;}
+
+.container{
+    margin: 20px 20px;
+    text-align:center;
+}
+
+mat-card{
+    padding: 50px 50px !important;
+    margin: 5px 15px!important;
+    box-shadow: none!important;
+    background:none!important;
+}
+
+.white{
+    color:#FFF;
+}
+
+table{
+    margin: 0% 20%;
+}
+
+.bold{
+    font-weight:bold;}
+
+.tile{
+    background:#FFA000;   
+    width: 100px;
+    height: 60px;      
+    margin: 1px 5px;
+    padding: 60px 70px;
+    cursor:pointer;   
+    font-size: 28px;
+    box-shadow:#757575 10px 1px 15px;
+}
+
+.tile:hover{
+    border:1px solid  #FFECB3;
+}
+
+.winboard{
+    position: absolute;
+    height: 90%;
+    background: #333;
+    top:0;
+    left:0;
+    opacity: 0.9;
+    width: 100%;
+    text-align:center;
+    padding: 50px 0px;
+    z-index:1;
+    margin:0 0px;
+}
+
+.announcement{
+ margin: 50px 10px;
+ font-size: 36px;
+ background: #303F9F;
+ line-height: 150px;
+}
+
+.pc{
+ color:#303F9F;
+}
+
+.player{
+    color: #E91E63;
+}
+
+.winner{
+    font-size:28px;
+}
+
+button{
+    border: none;
+    border-radius: 15px;
+    background:  #E91E63;
+    color: #FFECB3;
+    line-height:48px;
+    font-size: 28px;
+    cursor:pointer;
+}
+
+button:hover{
+    border:1px solid #FFECB3;
+}
+
+@media (min-width: 350px) and (max-width: 400px){
+table{
+    margin:0 25%;
+}
+ .tile{
+     width: 45px;
+     height: 25px;
+     padding: 10px 5px;
+ }
+}
+
+
+
+
